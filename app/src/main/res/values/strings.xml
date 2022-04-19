@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Wifi Chat Room</string>
+    <string name="app_name">Wifi Secure Chat</string>
+    <string name="too_much_input">Your Message is too long</string>
+    <string name="empty_message">Must write Some thing</string>
 </resources>

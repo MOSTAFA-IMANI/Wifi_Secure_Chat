@@ -5,7 +5,7 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="#efefef"
 android:orientation="vertical"
-tools:context="com.mandar.wifi_chat_room.wifichatroom.Client.ClientActivity">
+tools:context="wifi_encrypted_messaging.Client.ClientActivity">
 
 <ListView
     android:id="@+id/msgview"

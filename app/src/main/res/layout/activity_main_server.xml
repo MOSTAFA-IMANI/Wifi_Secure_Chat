@@ -4,8 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#efefef"
-    android:orientation="vertical"
-    tools:context="com.mandar.wifi_chat_room.wifichatroom.Server.ServerActivity">
+    android:orientation="vertical">
 
     <ListView
         android:id="@+id/msgview"
