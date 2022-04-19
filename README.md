@@ -1,6 +1,8 @@
 # Wifi_Secure_Chat
 RSA &amp; SHA &amp; P2P
 
+==========
+
 It's a simple quick project which supports wifi chatting and messaging
 the project is pure Java.
 Cuz it's a fun and testing project I do NOT use SOLID and hard patterns
@@ -20,9 +22,10 @@ each Mac address has its own Private key and Public key
 At the start of communication clients and sever send their PublicKey
 each message encrypt by destination PublicKey and decrypted by receiver PrivateKey (to Authorize the receiver)
 The server sends messages to the last joined clint (it was better to choose receiver but I will extend this later )
-
 the message itself hashed by SHA-256 algorithm and sent with an encrypted message to the receiver
 receiver decrypts the message and check the hash to modify it is the same message and the message has not changed
+
+
 ---------------------------------------------------------
 
 Copyright :
